@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="gu" class="">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ગોપનીયતા નીતિ - UTC NEWS</title>
+    <link rel="icon" href="logo/logo1.png" type="image/jpeg">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Fonts (Inter for English, Noto Sans Gujarati for Gujarati) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&family=Noto+Sans+Gujarati:wght@400;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <script>
+        // Custom Tailwind configuration
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['"Noto Sans Gujarati"', 'Inter', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    <style>
+        .prose h2 {
+            margin-top: 2em;
+            margin-bottom: 1em;
+            font-weight: 700;
+            border-bottom: 1px solid #e5e7eb;
+            padding-bottom: 0.5rem;
+        }
+
+        .dark .prose h2 {
+            border-bottom-color: #374151;
+        }
+
+        .prose ul {
+            list-style-type: disc;
+            margin-left: 1.5rem;
+        }
+
+        .dark .dark\:prose-invert {
+            color: #d1d5db;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-50 dark:bg-gray-950 font-sans text-gray-800 dark:text-gray-200 transition-colors duration-500">
+
+    <!-- App Container -->
+    <div id="app-root" class="flex flex-col min-h-screen">
+        <!-- Header Section -->
+        <header class="bg-white dark:bg-gray-900 sticky top-0 z-40 shadow-md">
+            <div class="container mx-auto px-4">
+                <div class="flex justify-between items-center py-4">
+                    <a href="index.php">
+                        <img src="logo/logo1.png" alt="UTC NEWS Logo" class="h-16 w-auto" onerror="this.alt='UTC NEWS'; this.src='https://placehold.co/150x60/eee/ccc?text=Logo';">
+                    </a>
+                    <div class="flex items-center space-x-4">
+                        <a href="index.php"
+                            class="text-sm font-semibold hover:text-yellow-500 transition-colors flex items-center gap-2">
+                            <i data-lucide="arrow-left-circle" class="w-4 h-4"></i>
+                            મુખ્ય પૃષ્ઠ પર પાછા જાઓ
+                        </a>
+                        <button id="darkModeToggler" class="p-2 rounded-full hover:bg-gray-200 dark:hover:bg-gray-700">
+                            <i data-lucide="moon" class="moon-icon"></i>
+                            <i data-lucide="sun" class="sun-icon hidden"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main id="main-content" class="container mx-auto px-4 py-8 md:py-12 flex-grow">
+            <div class="max-w-4xl mx-auto bg-white dark:bg-gray-900 p-6 md:p-10 rounded-lg shadow-lg">
+                <h1
+                    class="text-3xl md:text-4xl font-extrabold text-gray-900 dark:text-white mb-6 border-l-4 border-yellow-500 pl-4">
+                    ગોપનીયતા નીતિ (Privacy Policy)</h1>
+                <p class="text-sm text-gray-500 dark:text-gray-400 mb-6">છેલ્લું અપડેટ: 11 સપ્ટેમ્બર, 2025</p>
+
+                <div class="prose dark:prose-invert max-w-none text-gray-700 dark:text-gray-300">
+                    <p>UTC NEWS ("અમે", "અમારા") પર, અમે તમારી ગોપનીયતાનો આદર કરીએ છીએ. આ ગોપનીયતા નીતિ સમજાવે છે કે
+                        જ્યારે તમે અમારી વેબસાઇટ (utcnews.com) ની મુલાકાત લો છો ત્યારે અમે તમારી માહિતી કેવી રીતે
+                        એકત્રિત, ઉપયોગ, જાહેર અને સુરક્ષિત કરીએ છીએ. કૃપા કરીને આ ગોપનીયતા નીતિ કાળજીપૂર્વક વાંચો. જો
+                        તમે આ ગોપનીયતા નીતિની શરતોથી સંમત નથી, તો કૃપા કરીને સાઇટનો ઉપયોગ કરશો નહીં.</p>
+
+                    <h2>અમે જે માહિતી એકત્રિત કરીએ છીએ</h2>
+                    <p>અમે તમારા વિશે વિવિધ રીતે માહિતી એકત્રિત કરી શકીએ છીએ. સાઇટ પર અમે જે માહિતી એકત્રિત કરી શકીએ છીએ
+                        તેમાં શામેલ છે:</p>
+                    <ul>
+                        <li><strong>વ્યક્તિગત ડેટા:</strong> વ્યક્તિગત રીતે ઓળખી શકાય તેવી માહિતી, જેમ કે તમારું નામ
+                            અથવા ઇમેઇલ સરનામું, જે તમે સ્વેચ્છાએ અમને આપો છો જ્યારે તમે ન્યૂઝલેટર પર સબ્સ્ક્રાઇબ કરવા
+                            અથવા અમારો સંપર્ક કરવા જેવી પ્રવૃત્તિઓમાં ભાગ લેવાનું પસંદ કરો છો.</li>
+                        <li><strong>ડેરિવેટિવ ડેટા:</strong> અમારા સર્વર્સ દ્વારા આપમેળે એકત્રિત થતી માહિતી જ્યારે તમે
+                            સાઇટને ઍક્સેસ કરો છો, જેમ કે તમારું IP સરનામું, તમારો બ્રાઉઝર પ્રકાર, તમારી ઓપરેટિંગ સિસ્ટમ,
+                            તમારા ઍક્સેસ સમય અને તમે સાઇટ પર આવ્યા પહેલા અને પછી જોયેલા પૃષ્ઠો.</li>
+                        <li><strong>કુકીઝમાંથી ડેટા:</strong> અમે સાઇટ પર તમારી પસંદગીઓને ટ્રૅક કરવા અને તમને વધુ સારી
+                            સેવા પ્રદાન કરવા માટે કુકીઝનો ઉપયોગ કરી શકીએ છીએ. તમે તમારા બ્રાઉઝરને કુકીઝને નકારવા માટે
+                            સેટ કરી શકો છો, પરંતુ સાઇટના કેટલાક ભાગો યોગ્ય રીતે કામ કરી શકશે નહીં.</li>
+                    </ul>
+
+                    <h2>તમારી માહિતીનો ઉપયોગ</h2>
+                    <p>તમારી માહિતીનું ચોક્કસ હોવું અમને તમને એક સરળ, કાર્યક્ષમ અને કસ્ટમાઇઝ્ડ અનુભવ પ્રદાન કરવાની
+                        મંજૂરી આપે છે. ખાસ કરીને, અમે સાઇટ દ્વારા તમારા વિશે એકત્રિત કરેલી માહિતીનો ઉપયોગ નીચેના માટે
+                        કરી શકીએ છીએ:</p>
+                    <ul>
+                        <li>અમારી વેબસાઇટના અનુભવને સુધારવો અને વ્યક્તિગત કરવો.</li>
+                        <li>ઉપયોગના વલણોનું વિશ્લેષણ અને નિરીક્ષણ કરવું.</li>
+                        <li>તમને ન્યૂઝલેટર અને અન્ય અપડેટ્સ મોકલવા (જો તમે પસંદ કર્યું હોય તો).</li>
+                        <li>કાયદા અમલીકરણ વિનંતીઓનો જવાબ આપવો અને લાગુ કાયદો, સમન્સ અથવા કાનૂની પ્રક્રિયાનું પાલન કરવું.
+                        </li>
+                    </ul>
+
+                    <h2>તમારી માહિતીનું જાહેર કરવું</h2>
+                    <p>અમે તમારા વિશે એકત્રિત કરેલી માહિતીને અમુક પરિસ્થિતિઓમાં જાહેર કરી શકીએ છીએ. તમારી માહિતીને આ
+                        રીતે જાહેર કરી શકાય છે:</p>
+                    <ul>
+                        <li><strong>કાયદા દ્વારા અથવા અધિકારોનું રક્ષણ કરવા માટે:</strong> જો અમે માનીએ છીએ કે કાનૂની
+                            પ્રક્રિયાનો જવાબ આપવા, અમારી નીતિઓના સંભવિત ઉલ્લંઘનોની તપાસ કરવા અથવા પ્રતિક્રિયા આપવા, અથવા
+                            અન્યોના અધિકારો, સંપત્તિ અને સલામતીનું રક્ષણ કરવા માટે માહિતી જાહેર કરવી જરૂરી છે, તો અમે
+                            તમારી માહિતીને કોઈપણ લાગુ કાયદા, નિયમ અથવા વિનિયમ દ્વારા મંજૂર અથવા જરૂરી હોય તે પ્રમાણે શેર
+                            કરી શકીએ છીએ.</li>
+                        <li><strong>તૃતીય-પક્ષ સેવા પ્રદાતાઓ:</strong> અમે તમારી માહિતીને તૃતીય પક્ષો સાથે શેર કરી શકીએ
+                            છીએ જે અમારા માટે અથવા અમારી વતી સેવાઓ પ્રદાન કરે છે, જેમાં ડેટા વિશ્લેષણ, હોસ્ટિંગ સેવાઓ
+                            અને ગ્રાહક સેવા શામેલ છે.</li>
+                    </ul>
+
+                    <h2>તમારી માહિતીની સુરક્ષા</h2>
+                    <p>અમે તમારી વ્યક્તિગત માહિતીને સુરક્ષિત રાખવા માટે વહીવટી, તકનીકી અને ભૌતિક સુરક્ષા પગલાંનો ઉપયોગ
+                        કરીએ છીએ. જ્યારે અમે તમારી વ્યક્તિગત માહિતીને સુરક્ષિત કરવા માટે વાજબી પગલાં લીધાં છે, ત્યારે
+                        કૃપા કરીને ધ્યાન રાખો કે અમારા પ્રયાસો છતાં, કોઈપણ સુરક્ષા પગલાં અચૂક અથવા અભેદ્ય નથી.</p>
+
+                    <h2>બાળકોની ગોપનીયતા</h2>
+                    <p>અમે જાણીજોઈને 13 વર્ષથી ઓછી ઉંમરના બાળકો પાસેથી વ્યક્તિગત રીતે ઓળખી શકાય તેવી માહિતી એકત્રિત કરતા
+                        નથી. જો તમને ખબર પડે કે અમે 13 વર્ષથી ઓછી ઉંમરના કોઈપણ બાળક પાસેથી કોઈ ડેટા એકત્રિત કર્યો છે, તો
+                        કૃપા કરીને નીચે આપેલ સંપર્ક માહિતીનો ઉપયોગ કરીને અમારો સંપર્ક કરો.</p>
+
+                    <h2>આ ગોપનીયતા નીતિમાં ફેરફારો</h2>
+                    <p>અમે કોઈપણ સમયે આ ગોપનીયતા નીતિને અપડેટ કરવાનો અધિકાર સુરક્ષિત રાખીએ છીએ. અમે તમને આ પૃષ્ઠ પર નવી
+                        ગોપનીયતા નીતિ પોસ્ટ કરીને કોઈપણ ફેરફારો વિશે સૂચિત કરીશું. તમને સલાહ આપવામાં આવે છે કે કોઈપણ
+                        ફેરફાર માટે સમયાંતરે આ ગોપનીયતા નીતિની સમીક્ષા કરો.</p>
+
+                    <h2>અમારો સંપર્ક કરો</h2>
+                    <p>જો તમને આ ગોપનીયતા નીતિ વિશે કોઈ પ્રશ્નો અથવા ટિપ્પણીઓ હોય, તો કૃપા કરીને અમારો સંપર્ક કરો:</p>
+                    <p>UTC NEWS Convergence Limited<br>425, વિહાવ ટ્રેડ સેન્ટર, રાઈટ વેલ્યુ પ્રોપર્ટી, 30 મીટર, વાસણા ભાયલી કેનાલ રોડ, વેવ્ઝ ક્લબ પાસે, રિંગ રોડ, ભાયલી,
+                    વડોદરા, ગુજરાત 391410<br>ઈમેલ: vadodara@universaltruthcompany.com<br>ફોન: +91 9825030154
+                    </p>
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="bg-gray-800 dark:bg-black text-white py-8 mt-auto">
+            <div class="container mx-auto px-4 text-center text-sm text-gray-500">
+                <p>&copy; <span id="year"></span> UTC NEWS કન્વર્જન્સ લિમિટેડ. સર્વાધિકાર સુરક્ષિત.</p>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            lucide.createIcons();
+            document.getElementById('year').textContent = new Date().getFullYear();
+
+            const html = document.documentElement;
+            const darkModeToggler = document.getElementById('darkModeToggler');
+
+            const applyDarkMode = (isDark) => {
+                const moonIcon = darkModeToggler.querySelector('.moon-icon');
+                const sunIcon = darkModeToggler.querySelector('.sun-icon');
+                if (isDark) {
+                    html.classList.add('dark');
+                    moonIcon.classList.add('hidden');
+                    sunIcon.classList.remove('hidden');
+                } else {
+                    html.classList.remove('dark');
+                    moonIcon.classList.remove('hidden');
+                    sunIcon.classList.add('hidden');
+                }
+            };
+
+            darkModeToggler.addEventListener('click', () => {
+                const isDark = html.classList.toggle('dark');
+                localStorage.setItem('theme', isDark ? 'dark' : 'light');
+                applyDarkMode(isDark);
+            });
+
+            const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+            const savedTheme = localStorage.getItem('theme');
+            applyDarkMode(savedTheme === 'dark' || (!savedTheme && prefersDark));
+        });
+    </script>
+</body>
+
+</html>
